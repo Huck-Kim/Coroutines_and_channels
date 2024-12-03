@@ -1,0 +1,25 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+# idea config
+.idea
+
+# md files except README
+*.md
+!README.md
+
+# excluded lessons
+Before you start/
+Feedback survey/
+
+# included lessons
+Coroutines/*/
+Coroutines/task/*/
+
+!/Coroutines/task/
+!/Coroutines/task/src/
+
